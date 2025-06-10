@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('dadostratadosfarfetch.csv', sep=';')
+df = pd.read_csv('codigos/dadostratadosfarfetch.csv', sep=';')
 
 st.dataframe(df)
 
